@@ -1,9 +1,10 @@
 <?php
 /***
-* File: oop/class.game.php
-* Author: design1online.com, LLC
-* Created: 5.11.2011
+* File: inc/class.tictactoe.php
+* Author: Pea
+* Created: 12.03.2015
 * License: Public GNU
+* Description: Object-oriented PHP tic tac toe game
 ***/
 
 class Game {
