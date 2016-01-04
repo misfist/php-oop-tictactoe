@@ -1,0 +1,48 @@
+# ignore all files starting or ending with ~
+~*
+*~
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+.DS_Store
+
+# ignore editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+codekit-config.json
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.sass-cache
+*.scssc
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore vendor and config files
+
+node_modules/
+
+.htaccess
+sitemap.xml
+sitemap.xml.gz
+
