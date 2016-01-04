@@ -104,8 +104,8 @@ class TicTacToe extends Game {
                     echo "<td class=\"board-cell form-group\">";
                     
                     //check to see if that position is already filled
+                    //If it is, display disabled radio button field with value
                     if ( $this->board[$x][$y] ) {
-                        // echo "<img src=\"images/{$this->board[$x][$y]}.jpg\" alt=\"{$this->board[$x][$y]}\" title=\"{$this->board[$x][$y]}\" />";
                         echo "<label class=\"btn player-{$this->board[$x][$y]} disabled\"><input type=\"radio\" name=\"{$x}_{$y}\" value=\"{$this->board[$x][$y]}\" id=\"{$x}_{$y}\"><span>{$this->board[$x][$y]}</span></label>";
                     }
                     else {
