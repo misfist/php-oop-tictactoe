@@ -1890,13 +1890,25 @@ body {
   width: 100px;
   padding: 2px; }
 
+.tic-tac-toe-board .player-X.active {
+  border: 1px solid #d9534f !important;
+  color: #d9534f; }
+
 .tic-tac-toe-board .player-X.disabled {
   background-color: #fceedb;
   color: #f0ad4e; }
+  .tic-tac-toe-board .player-X.disabled:hover, .tic-tac-toe-board .player-X.disabled:focus {
+    color: #fff; }
+
+.tic-tac-toe-board .player-O.active {
+  border: 1px solid #d9534f !important;
+  color: #d9534f; }
 
 .tic-tac-toe-board .player-O.disabled {
   background-color: #daf1f8;
   color: #5bc0de; }
+  .tic-tac-toe-board .player-O.disabled:hover, .tic-tac-toe-board .player-O.disabled:focus {
+    color: #fff; }
 
 .tic-tac-toe-board label {
   float: left;

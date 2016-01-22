@@ -30,7 +30,7 @@ var paths = {
         output: 'assets/styles/'
     },
     scripts: {
-        input: 'src/scripts/*',
+        input: 'src/scripts/**/*.js',
         output: 'assets/scripts/'
     },
     svgs: {

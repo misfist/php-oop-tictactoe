@@ -22,6 +22,8 @@ if ( !isset( $_SESSION['game']['tictactoe'] ) )
 <html>
 	<head>
 		<title>Tic Tac Toe</title>
+		<script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script src="assets/scripts/main.js"></script>
 		<link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
 	</head>
 	<body>
@@ -31,6 +33,11 @@ if ( !isset( $_SESSION['game']['tictactoe'] ) )
 				<form name="tic-tac-toe" id="tic-tac-toe" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
 				<?php $_SESSION['game']['tictactoe']->play_game( $_POST ); ?>
 				</form>
+
+				<script>
+
+
+				</script>
 			</div>
 		</div>
 	</body>
